@@ -1,0 +1,48 @@
+DIAGRAMA ENTIDADE-RELACIONAMENTO (ER) - Estilo brModelo
+
+[CLIENTE]
+--------------------------
+PK idCliente
+nome
+telefone
+email
+
+[VENDEDOR]
+--------------------------
+PK idVendedor
+nome
+cpf
+
+[PRODUTO]
+--------------------------
+PK idProduto
+nome
+categoria
+tamanho
+cor
+preco
+estoque
+
+[VENDA]
+--------------------------
+PK idVenda
+data
+formaPagamento
+valorTotal
+FK idCliente
+FK idVendedor (opcional)
+
+[ITEM_VENDA]
+--------------------------
+PK idItem
+quantidade
+subtotal
+FK idVenda
+FK idProduto
+
+RELACIONAMENTOS:
+Cliente 1:N Venda
+Vendedor 1:N Venda
+Venda 1:N Item_Venda
+Produto 1:N Item_Venda
+
