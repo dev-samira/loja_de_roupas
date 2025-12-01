@@ -1,6 +1,6 @@
 # Sistema de Loja de Roupas – Banco de Dados
 
-Este repositório contém a implementação prática do projeto de banco de dados para a loja de roupas “Fashion & Style”.  
+Este repositório contém a implementação prática do projeto de banco de dados para a loja de roupas “Estilo & Glow”.  
 Ele inclui scripts SQL completos para criação, inserção, consulta, atualização e exclusão de dados, simulando um sistema real de gerenciamento de loja.
 
 ---
@@ -77,4 +77,5 @@ O objetivo é criar e manipular dados em um banco de dados relacional, aplicando
 - O diagrama ER (`diagrama.png`) pode ser usado como referência visual da estrutura do banco.  
 - Todos os scripts foram testados no MySQL. Para PostgreSQL, é necessário ajustar `AUTO_INCREMENT` para `SERIAL`.  
 - Você pode expandir o projeto adicionando mais tabelas, consultas e funcionalidades.
+
 
